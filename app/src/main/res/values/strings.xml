@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Konna</string>
+    <string name="app_name">Jumga</string>
     <string name="settings">App settings</string>
     <string name="about">About the app</string>
     <string name="food_fragment_heading">Food &amp; Drinks</string>
@@ -21,10 +21,10 @@
     <string name="close">Close</string>
     <string name="account">Account</string>
     <string name="content_description_create_store_image">cartoon character carry food stuff</string>
-    <string name="sell_on_konna">Sell on Konna</string>
-    <string name="sell_on_konna_secondary">Create your own unique store now to start selling on Konna in less than 4.5 minutes.</string>
+    <string name="sell_on_jumga">Sell on Jumga</string>
+    <string name="sell_on_jumga_secondary">Create your own unique store now to start selling on Jumga in less than 4.5 minutes.</string>
     <string name="store_name_hint">Store name (could be your name)</string>
-    <string name="store_creation_disclaimer">By clicking Continue you agree to the terms and conditions of Konna and third party partners.</string>
+    <string name="store_creation_disclaimer">By clicking Continue you agree to the terms and conditions of Jumga and third party partners.</string>
     <string name="store_phone_hint">Phone number</string>
     <string name="store_address_hint">Address</string>
     <string name="store_description_hint">Short description</string>
@@ -95,7 +95,7 @@
     <string name="call_dispatcher">Call dispatcher</string>
     <string name="email_dispatcher">Email dispatcher</string>
     <string name="stock_helper">This will only be shown when item is low on stock</string>
-    <string name="price_helper">Take note that Konna takes a percentage of this amount when you\'re paid</string>
+    <string name="price_helper">Take note that Jumga takes a percentage of this amount when you\'re paid</string>
     <string name="description_helper">Give as much description as necessary and please do not mislead customers</string>
     <string name="name_helper">Please use a simple and honest caption</string>
     <string name="completing_setup">Completing setup…</string>

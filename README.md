@@ -19,8 +19,8 @@ Payments can be received from the UK, Nigeria, Kenya, and Ghana depending on the
 
 
 Where I implement payment:
-Product page (where customers can view items and make orders) - https://github.com/jsonkile/Konna/blob/master/app/src/main/java/com/bigheadapps/monkee/ui/activities/ProductActivity.kt
-Store Account page (where merchant pay setup fee) - https://github.com/jsonkile/Konna/blob/master/app/src/main/java/com/bigheadapps/monkee/ui/fragments/store/AccountFragment.kt
+Product page (where customers can view items and make orders) - https://github.com/jsonkile/Jumga/blob/master/app/src/main/java/com/bigheadapps/monkee/ui/activities/ProductActivity.kt
+Store Account page (where merchant pay setup fee) - https://github.com/jsonkile/Jumga/blob/master/app/src/main/java/com/bigheadapps/monkee/ui/fragments/store/AccountFragment.kt
 
 Please contact me for further explanation of my code if neccessary.
 Cheers 🥂

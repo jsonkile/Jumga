@@ -1,6 +1,8 @@
 # Jumga (Flutterwave Dev Challenge)
 Jumga is a simple e-commerce Android app made for the Flutterwave developer challenge. 
 
+![alt text](https://github.com/jsonkile/Jumga/blob/master/Konna%20App.png?raw=true)
+
 The app was written in purely Kotlin. Download installation APK here: https://drive.google.com/file/d/1DEz3YGNBAsImMTwUlhzeV5hVUPh3QNYp/view?usp=sharing
 
 The platform allows merchants to create stores and sell goods, but each merchant must complete a one-time payment of $20 to continue their 'store' setup.

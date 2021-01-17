@@ -1,2 +1,2 @@
-# weShop
-Find shopping deals near you
+# Konna (Flutterwave challange)
+

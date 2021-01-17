@@ -1,5 +1,5 @@
-# Konna (Flutterwave Dev Challenge)
-Konna is a simple e-commerce Android app made for the Flutterwave developer challenge. 
+# Jumga (Flutterwave Dev Challenge)
+Jumga is a simple e-commerce Android app made for the Flutterwave developer challenge. 
 
 The app was written in purely Kotlin.
 

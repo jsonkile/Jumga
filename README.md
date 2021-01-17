@@ -13,7 +13,7 @@ Dispatchers are also assigned to each merchant and store randomly upon creation.
 
 The platform also allows said customers find products from 4 categories (Food, Fashion, Gadgets, and Others), they can simple place orders for a product and make payment directly using Fluttwerwave. Again please use the provided links above to make payments.
 
-On every completed purchase, the value of the order is split among the platform (Konna, the merchant, and the assigned Dispatcher) accordingly. The platform takes 2.5% of the value of the product, while the merchant takes the rest. The platform also receives an additional 20% of the delivery charge.
+On every completed purchase, the value of the order is split among the platform (Konna, the merchant, and the assigned Dispatcher) accordingly. The platform takes 2.5% of the value of the product, while the merchant takes the rest. The platform also receives an additional 20% of the delivery charge ($5 flat).
 
 Payments can be received from the UK, Nigeria, Kenya, and Ghana depending on the billing location of the customer or merchant during setup.
 

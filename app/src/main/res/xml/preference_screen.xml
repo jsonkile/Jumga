@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:icon="@drawable/ic_credit_card"
+        android:summary="Rest assured your details remain here"
+        android:title="@string/billing" />
+
+    <EditTextPreference
+        app:useSimpleSummaryProvider="true"
+        android:key="billing-fname"
+        android:summary="Enter your first name"
+        android:title="First name" />
+
+    <EditTextPreference
+        app:useSimpleSummaryProvider="true"
+        android:key="billing-lname"
+        android:summary="Enter your last name"
+        android:title="Last name" />
+
+    <EditTextPreference
+        app:useSimpleSummaryProvider="true"
+        android:key="billing-email"
+        android:summary="Enter your email address"
+        android:title="Email address" />
+
+    <EditTextPreference
+        app:useSimpleSummaryProvider="true"
+        android:key="billing-phone"
+        android:summary="Enter your phone number"
+        android:title="Phone number" />
+
+    <EditTextPreference
+        app:useSimpleSummaryProvider="true"
+        android:key="billing-address"
+        android:summary="Enter your billing address"
+        android:title="Address" />
+
+    <DropDownPreference
+        app:useSimpleSummaryProvider="true"
+        android:defaultValue="1"
+        android:entries="@array/countries"
+        android:entryValues="@array/countries"
+        android:key="billing-country"
+        android:summary="Select your country"
+        android:title="Country" />
+
+    <PreferenceCategory app:icon="@drawable/ic_round_dark_mode_24" android:title="@string/theme" />
+
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="darkmode"
+        android:summary="Enable dark theme"
+        android:title="Dark mode" />
+
+</PreferenceScreen>

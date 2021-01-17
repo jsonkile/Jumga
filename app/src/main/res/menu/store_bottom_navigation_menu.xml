@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/inventory_fragment"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_round_dashboard_24"
+        android:title="@string/inventory"/>
+
+    <item
+        android:id="@+id/account_fragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_credit_card"
+        android:title="@string/account"/>
+
+    <item
+        android:id="@+id/orders_fragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_assignment_returned"
+        android:title="@string/orders"/>
+
+    <item
+        android:id="@+id/manage_fragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/manage"/>
+
+</menu>

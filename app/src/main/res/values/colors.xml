@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bar_color">#1B1B1B</color>
+    <color name="base_color">#121212</color>
+
+    <color name="black">#FF000000</color>
+    <color name="red">#f01249</color>
+    <color name="green">#21976A</color>
+    <color name="purple">#D03982</color>
+    <color name="violet">#441151</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="off_white">#F5F5F5</color>
+    <color name="darker_grey">#656565</color>
+    <color name="darker_grey2">#292929</color>
+    <color name="darker_grey3">#222222</color>
+    <color name="lighter_grey3">#E1E0E0</color>
+    <color name="background">#ECECEC</color>
+    <color name="form_page_background">@color/white</color>
+
+    <color name="brand_primary">#0abf52</color>
+    <color name="brand_primary_variant">#008d24</color>
+    <color name="brand_secondary">#037ef3</color>
+    <color name="brand_secondary_variant">#0054bf</color>
+
+</resources>

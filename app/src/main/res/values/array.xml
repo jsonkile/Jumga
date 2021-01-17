@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countries">
+        <item>Nigeria</item>
+        <item>Ghana</item>
+        <item>Kenya</item>
+        <item>United Kingdom</item>
+    </string-array>
+</resources>

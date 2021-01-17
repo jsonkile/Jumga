@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/food_fragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_fastfood"
+        android:title="@string/food_and_drinks"/>
+    <item
+        android:id="@+id/fashion_fragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_style"
+        android:title="@string/fashion"/>
+    <item
+        android:id="@+id/gadgets_fragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_round_speaker_24"
+        android:title="@string/gadgets"/>
+    <item
+        android:id="@+id/others_fragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_toys"
+        android:title="@string/misc"/>
+    <item
+        android:id="@+id/profile_fragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person_pin_24"
+        android:title="@string/profile"/>
+
+</menu>

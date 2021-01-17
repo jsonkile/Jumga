@@ -1,0 +1,34 @@
+POST
+{BASE_URL}/subaccounts
+
+# Headers
+@Content-Type: application/json
+
+# Body
+{
+  "accountNumber": "{accountNumber}",
+  "businessName": "{businessName}",
+  "businessMobile": "{businessMobile}",
+  "bank": "{bank}",
+  "country": "{country}",
+  "splitType": "{splitType}",
+  "splitValue": "{splitValue}"
+}
+
+%%%
+# POST
+# /subaccounts
+# Headers
+# @Content-Type: application/json
+# Body
+# {
+#   "accountNumber": "{accountNumber}",
+#   "businessName": "{businessName}",
+#   "businessMobile": "{businessMobile}",
+#   "bank": "{bank}",
+#   "country": "{country}",
+#   "splitType": "{splitType}",
+#   "splitValue": "{splitValue}"
+# }
+
+# Error: java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found

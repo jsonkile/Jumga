@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bar_color">#1B1B1B</color>
+    <color name="base_color">#121212</color>
+    <color name="background">#121212</color>
+    <color name="form_page_background">#121212</color>
+</resources>

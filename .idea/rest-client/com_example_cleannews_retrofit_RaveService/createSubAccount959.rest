@@ -1,0 +1,17 @@
+POST
+{BASE_URL}/subaccounts
+
+# Headers
+@Content-Type: application/json
+
+# Body
+{
+  "account_number": "{account_number}",
+  "business_name": "{business_name}",
+  "business_mobile": "{business_mobile}",
+  "business_email": "{business_email}",
+  "account_bank": "{account_bank}",
+  "country": "{country}",
+  "split_type": "{split_type}",
+  "split_value": "{split_value}"
+}

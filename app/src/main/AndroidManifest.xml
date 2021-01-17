@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bigheadapps.monkee">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".ThisApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Monkee">
+        <activity
+            android:name=".ui.activities.SplashActivity"
+            android:theme="@style/SplashActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activities.ViewStoreActivity"
+            android:parentActivityName=".ui.activities.ProductActivity"
+            android:theme="@style/ActivityTheme" />
+        <activity
+            android:name=".ui.activities.SettingsActivity"
+            android:parentActivityName=".ui.activities.MainActivity"
+            android:theme="@style/ActivityTheme" />
+        <activity
+            android:name=".ui.activities.OrdersActivity"
+            android:parentActivityName=".ui.activities.MainActivity"
+            android:theme="@style/ActivityTheme" />
+        <activity
+            android:name=".ui.activities.ProductActivity"
+            android:parentActivityName=".ui.activities.MainActivity"
+            android:theme="@style/ActivityTheme" />
+        <activity
+            android:name=".ui.activities.CreateStoreActivity"
+            android:parentActivityName=".ui.activities.MainActivity"
+            android:theme="@style/ActivityTheme" />
+        <activity
+            android:name=".ui.activities.NewItemActivity"
+            android:theme="@style/ActivityTheme" />
+        <activity
+            android:name=".ui.activities.StoreActivity"
+            android:theme="@style/ActivityTheme" />
+        <activity
+            android:name=".ui.activities.AuthActivity"
+            android:parentActivityName=".ui.activities.MainActivity"
+            android:theme="@style/AuthActivityTheme" />
+        <activity
+            android:name=".ui.activities.MainActivity"
+            android:theme="@style/ActivityTheme"></activity>
+    </application>
+
+</manifest>

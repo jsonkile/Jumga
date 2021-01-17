@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/form_page_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activities.NewItemActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/add_item_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/add_item_tool_bar"
+            style="@style/TopBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/Theme.PrepApp.AppBarOverlay"
+            app:menu="@menu/add_to_inventory_menu"
+            app:navigationIcon="@drawable/ic_arrow_back"
+            app:popupTheme="@style/Theme.PrepApp.PopupOverlay"
+            app:title="@string/add_item_page_title" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/add_to_inventory_form" />
+
+</LinearLayout>

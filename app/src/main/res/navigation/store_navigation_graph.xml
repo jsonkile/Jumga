@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/inventory_fragment">
+    <fragment
+        android:id="@+id/inventory_fragment"
+        android:name="com.bigheadapps.monkee.ui.fragments.store.InventoryFragment"
+        android:label="@string/inventory"
+        tools:layout="@layout/fragment_inventory"/>
+    <fragment
+        android:id="@+id/account_fragment"
+        android:name="com.bigheadapps.monkee.ui.fragments.store.AccountFragment"
+        android:label="@string/account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/orders_fragment"
+        android:name="com.bigheadapps.monkee.ui.fragments.store.OrdersFragment"
+        android:label="@string/orders"
+        tools:layout="@layout/fragment_orders" />
+    <fragment
+        android:id="@+id/manage_fragment"
+        android:name="com.bigheadapps.monkee.ui.fragments.store.ManageFragment"
+        android:label="@string/manage"
+        tools:layout="@layout/fragment_manage" />
+</navigation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item-->
+<!--        android:id="@+id/save_product"-->
+<!--        android:enabled="true"-->
+<!--        app:showAsAction="always"-->
+<!--        android:icon="@drawable/ic_favorite"-->
+<!--        android:title="@string/saved_item"/>-->
+
+    <item
+        android:id="@+id/seller_information"
+        android:enabled="true"
+        android:icon="@drawable/ic_store_mall"
+        android:title="@string/seller_information"
+        app:showAsAction="ifRoom" />
+
+</menu>

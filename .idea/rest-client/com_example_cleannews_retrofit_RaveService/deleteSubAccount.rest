@@ -1,0 +1,7 @@
+DELETE
+{BASE_URL}/subaccount/{id}
+&id={id}
+
+# Headers
+@Content-Type: 
+
